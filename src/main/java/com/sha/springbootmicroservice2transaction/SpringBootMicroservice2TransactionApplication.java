@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.PropertySource;
 
 @SpringBootApplication
-@PropertySource("classpath:aplication-${spring.profile.active:default}.properties")
+@PropertySource("classpath:application-${spring.profile.active:default}.properties")
 public class SpringBootMicroservice2TransactionApplication {
 
 	public static void main(String[] args) {
